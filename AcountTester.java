@@ -64,6 +64,9 @@ class AccountTester {
 		System.out.println("口座番号：" + x[1].getNo());
 		System.out.println("預金残高：" + x[1].getBalance());
 
+        for (Acount a : x) {
+            Sysstem.out.println(a.getName());
+        }
 	}
 }
 
